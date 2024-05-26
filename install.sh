@@ -33,7 +33,7 @@ clear
 echo -e "${PUNTERO} ${RED}Instalando nvim${NORMAL}"
 
 pkg install -y neovim
-mv ~/.config/nvim/ ./nvim/init.vim
+mv ~/.config/nvim/init.vim ./nvim/init.vim
 
 echo -e "${PUNTERO} ${GREEN}nvim Instalado :)${NORMAL}"
 
